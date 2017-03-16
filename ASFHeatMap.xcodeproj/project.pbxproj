@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		65FF17001E79D20C0083328D /* ASFHeatMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF16FE1E79D20C0083328D /* ASFHeatMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF17081E79D23E0083328D /* Heatmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF17061E79D23E0083328D /* Heatmap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF17091E79D23E0083328D /* Heatmap.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FF17071E79D23E0083328D /* Heatmap.m */; };
+		65FF170D1E79D2880083328D /* ColorProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF170B1E79D2880083328D /* ColorProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF170E1E79D2880083328D /* ColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FF170C1E79D2880083328D /* ColorProvider.m */; };
+		65FF17111E79D3870083328D /* DiffColorProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF170F1E79D3870083328D /* DiffColorProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF17121E79D3870083328D /* DiffColorProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FF17101E79D3870083328D /* DiffColorProvider.m */; };
+		65FF17151E79D4260083328D /* HeatMapRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF17131E79D4260083328D /* HeatMapRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF17161E79D4260083328D /* HeatMapRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FF17141E79D4260083328D /* HeatMapRenderer.m */; };
+		65FF17191E79D51D0083328D /* DiffHeatMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FF17171E79D51D0083328D /* DiffHeatMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65FF171A1E79D51D0083328D /* DiffHeatMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FF17181E79D51D0083328D /* DiffHeatMap.m */; };
+		65FF171F1E79D9DD0083328D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FF171E1E79D9DD0083328D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65FF16FB1E79D20C0083328D /* ASFHeatMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASFHeatMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FF16FE1E79D20C0083328D /* ASFHeatMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASFHeatMap.h; sourceTree = "<group>"; };
 		65FF16FF1E79D20C0083328D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FF17061E79D23E0083328D /* Heatmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heatmap.h; sourceTree = "<group>"; };
+		65FF17071E79D23E0083328D /* Heatmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heatmap.m; sourceTree = "<group>"; };
+		65FF170B1E79D2880083328D /* ColorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorProvider.h; sourceTree = "<group>"; };
+		65FF170C1E79D2880083328D /* ColorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorProvider.m; sourceTree = "<group>"; };
+		65FF170F1E79D3870083328D /* DiffColorProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffColorProvider.h; sourceTree = "<group>"; };
+		65FF17101E79D3870083328D /* DiffColorProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffColorProvider.m; sourceTree = "<group>"; };
+		65FF17131E79D4260083328D /* HeatMapRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeatMapRenderer.h; sourceTree = "<group>"; };
+		65FF17141E79D4260083328D /* HeatMapRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeatMapRenderer.m; sourceTree = "<group>"; };
+		65FF17171E79D51D0083328D /* DiffHeatMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiffHeatMap.h; sourceTree = "<group>"; };
+		65FF17181E79D51D0083328D /* DiffHeatMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiffHeatMap.m; sourceTree = "<group>"; };
+		65FF171E1E79D9DD0083328D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FF171F1E79D9DD0083328D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +55,7 @@
 			children = (
 				65FF16FD1E79D20C0083328D /* ASFHeatMap */,
 				65FF16FC1E79D20C0083328D /* Products */,
+				65FF171D1E79D9DD0083328D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +70,36 @@
 		65FF16FD1E79D20C0083328D /* ASFHeatMap */ = {
 			isa = PBXGroup;
 			children = (
+				65FF170A1E79D26E0083328D /* ColorProvider */,
 				65FF16FE1E79D20C0083328D /* ASFHeatMap.h */,
 				65FF16FF1E79D20C0083328D /* Info.plist */,
+				65FF17061E79D23E0083328D /* Heatmap.h */,
+				65FF17071E79D23E0083328D /* Heatmap.m */,
+				65FF17131E79D4260083328D /* HeatMapRenderer.h */,
+				65FF17141E79D4260083328D /* HeatMapRenderer.m */,
+				65FF17171E79D51D0083328D /* DiffHeatMap.h */,
+				65FF17181E79D51D0083328D /* DiffHeatMap.m */,
 			);
 			path = ASFHeatMap;
+			sourceTree = "<group>";
+		};
+		65FF170A1E79D26E0083328D /* ColorProvider */ = {
+			isa = PBXGroup;
+			children = (
+				65FF170B1E79D2880083328D /* ColorProvider.h */,
+				65FF170C1E79D2880083328D /* ColorProvider.m */,
+				65FF170F1E79D3870083328D /* DiffColorProvider.h */,
+				65FF17101E79D3870083328D /* DiffColorProvider.m */,
+			);
+			name = ColorProvider;
+			sourceTree = "<group>";
+		};
+		65FF171D1E79D9DD0083328D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65FF171E1E79D9DD0083328D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +109,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FF17111E79D3870083328D /* DiffColorProvider.h in Headers */,
 				65FF17001E79D20C0083328D /* ASFHeatMap.h in Headers */,
+				65FF17191E79D51D0083328D /* DiffHeatMap.h in Headers */,
+				65FF17081E79D23E0083328D /* Heatmap.h in Headers */,
+				65FF170D1E79D2880083328D /* ColorProvider.h in Headers */,
+				65FF17151E79D4260083328D /* HeatMapRenderer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FF171A1E79D51D0083328D /* DiffHeatMap.m in Sources */,
+				65FF170E1E79D2880083328D /* ColorProvider.m in Sources */,
+				65FF17091E79D23E0083328D /* Heatmap.m in Sources */,
+				65FF17121E79D3870083328D /* DiffColorProvider.m in Sources */,
+				65FF17161E79D4260083328D /* HeatMapRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +241,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
